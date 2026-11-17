@@ -1,0 +1,26 @@
+[
+  {
+    "runId": "exp_baseline_init",
+    "name": "默认权威科研基准实验 (Baseline v1.0)",
+    "timestamp": 1792026018770,
+    "dateStr": "2026/10/15 01:00:18",
+    "note": "系统预置的标准对照评测版本（涵盖 79 项生态技能与多轮长上下文抗反噬实测）。",
+    "config": {
+      "mode": "simulation_engine",
+      "datasetScope": "全量 24 梯度",
+      "caseCount": 24,
+      "iterations": 2,
+      "topK": 4
+    },
+    "metrics": {
+      "totalCases": 24,
+      "totalTraces": 96,
+      "avgBaselineErrorRate": 0.792,
+      "avgSisErrorRate": 0.063,
+      "avgBaselineLatency": 615,
+      "avgSisLatency": 266,
+      "errorRateReduction": 0.921,
+      "tokenReduction": "87.5%"
+    }
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "case_id": "gaia_turn_1",
+    "turn_depth": 1,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "s_excel_01",
+    "expected_tool": "s_excel_01",
+    "duration_ms": 481,
+    "token_usage": {
+      "prompt": 9175,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_1",
+    "turn_depth": 1,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "s_excel_01",
+    "expected_tool": "s_excel_01",
+    "duration_ms": 328,
+    "token_usage": {
+      "prompt": 550,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_1",
+    "turn_depth": 1,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "claude_multilingual_legal",
+    "expected_tool": "s_excel_01",
+    "duration_ms": 591,
+    "token_usage": {
+      "prompt": 9175,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_1",
+    "turn_depth": 1,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "s_excel_01",
+    "expected_tool": "s_excel_01",
+    "duration_ms": 270,
+    "token_usage": {
+      "prompt": 550,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_2",
+    "turn_depth": 2,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "claude_markdown_compiler",
+    "expected_tool": "claude_markdown_compiler",
+    "duration_ms": 593,
+    "token_usage": {
+      "prompt": 9265,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_2",
+    "turn_depth": 2,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "claude_markdown_compiler",
+    "expected_tool": "claude_markdown_compiler",
+    "duration_ms": 218,
+    "token_usage": {
+      "prompt": 640,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_2",
+    "turn_depth": 2,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "claude_markdown_compiler",
+    "expected_tool": "claude_markdown_compiler",
+    "duration_ms": 735,
+    "token_usage": {
+      "prompt": 9265,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_2",
+    "turn_depth": 2,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "claude_markdown_compiler",
+    "expected_tool": "claude_markdown_compiler",
+    "duration_ms": 256,
+    "token_usage": {
+      "prompt": 640,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_3",
+    "turn_depth": 3,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "my_skill_01",
+    "expected_tool": "my_skill_01",
+    "duration_ms": 641,
+    "token_usage": {
+      "prompt": 9355,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_3",
+    "turn_depth": 3,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "my_skill_01",
+    "expected_tool": "my_skill_01",
+    "duration_ms": 291,
+    "token_usage": {
+      "prompt": 730,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_3",
+    "turn_depth": 3,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "my_skill_01",
+    "expected_tool": "my_skill_01",
+    "duration_ms": 698,
+    "token_usage": {
+      "prompt": 9355,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_3",
+    "turn_depth": 3,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "my_skill_01",
+    "expected_tool": "my_skill_01",
+    "duration_ms": 188,
+    "token_usage": {
+      "prompt": 730,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_4",
+    "turn_depth": 4,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "claude_markdown_compiler",
+    "expected_tool": "openai_whisper_transcriber",
+    "duration_ms": 632,
+    "token_usage": {
+      "prompt": 9445,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_4",
+    "turn_depth": 4,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "openai_whisper_transcriber",
+    "expected_tool": "openai_whisper_transcriber",
+    "duration_ms": 251,
+    "token_usage": {
+      "prompt": 820,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_4",
+    "turn_depth": 4,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "openai_whisper_transcriber",
+    "expected_tool": "openai_whisper_transcriber",
+    "duration_ms": 704,
+    "token_usage": {
+      "prompt": 9445,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_4",
+    "turn_depth": 4,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "openai_whisper_transcriber",
+    "expected_tool": "openai_whisper_transcriber",
+    "duration_ms": 296,
+    "token_usage": {
+      "prompt": 820,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_5",
+    "turn_depth": 5,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "s3",
+    "expected_tool": "s3",
+    "duration_ms": 474,
+    "token_usage": {
+      "prompt": 9535,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_5",
+    "turn_depth": 5,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "s3",
+    "expected_tool": "s3",
+    "duration_ms": 297,
+    "token_usage": {
+      "prompt": 910,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_5",
+    "turn_depth": 5,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "s3",
+    "expected_tool": "s3",
+    "duration_ms": 699,
+    "token_usage": {
+      "prompt": 9535,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_5",
+    "turn_depth": 5,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "s3",
+    "expected_tool": "s3",
+    "duration_ms": 275,
+    "token_usage": {
+      "prompt": 910,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_6",
+    "turn_depth": 6,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "finance_invoice_auditor",
+    "expected_tool": "finance_invoice_auditor",
+    "duration_ms": 690,
+    "token_usage": {
+      "prompt": 9625,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_6",
+    "turn_depth": 6,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "finance_invoice_auditor",
+    "expected_tool": "finance_invoice_auditor",
+    "duration_ms": 276,
+    "token_usage": {
+      "prompt": 1000,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_6",
+    "turn_depth": 6,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "deepseek_sql_querier",
+    "expected_tool": "finance_invoice_auditor",
+    "duration_ms": 651,
+    "token_usage": {
+      "prompt": 9625,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_6",
+    "turn_depth": 6,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "finance_invoice_auditor",
+    "expected_tool": "finance_invoice_auditor",
+    "duration_ms": 216,
+    "token_usage": {
+      "prompt": 1000,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_7",
+    "turn_depth": 7,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "deepseek_v3_moe_inference",
+    "expected_tool": "git_repo_manager",
+    "duration_ms": 619,
+    "token_usage": {
+      "prompt": 9715,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_7",
+    "turn_depth": 7,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_code_interpreter",
+    "expected_tool": "git_repo_manager",
+    "duration_ms": 189,
+    "token_usage": {
+      "prompt": 1090,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_7",
+    "turn_depth": 7,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "git_repo_manager",
+    "expected_tool": "git_repo_manager",
+    "duration_ms": 620,
+    "token_usage": {
+      "prompt": 9715,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_7",
+    "turn_depth": 7,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "git_repo_manager",
+    "expected_tool": "git_repo_manager",
+    "duration_ms": 199,
+    "token_usage": {
+      "prompt": 1090,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_8",
+    "turn_depth": 8,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "claude_mcp_bridge",
+    "expected_tool": "openai_web_search",
+    "duration_ms": 586,
+    "token_usage": {
+      "prompt": 9805,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_8",
+    "turn_depth": 8,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "openai_web_search",
+    "expected_tool": "openai_web_search",
+    "duration_ms": 290,
+    "token_usage": {
+      "prompt": 1180,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_8",
+    "turn_depth": 8,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "supply_chain_inventory_opt",
+    "expected_tool": "openai_web_search",
+    "duration_ms": 611,
+    "token_usage": {
+      "prompt": 9805,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_8",
+    "turn_depth": 8,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "openai_web_search",
+    "expected_tool": "openai_web_search",
+    "duration_ms": 249,
+    "token_usage": {
+      "prompt": 1180,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_9",
+    "turn_depth": 9,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_function_router",
+    "expected_tool": "claude_contract_auditor",
+    "duration_ms": 742,
+    "token_usage": {
+      "prompt": 9895,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_9",
+    "turn_depth": 9,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "claude_contract_auditor",
+    "expected_tool": "claude_contract_auditor",
+    "duration_ms": 219,
+    "token_usage": {
+      "prompt": 1270,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_9",
+    "turn_depth": 9,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "openai_rag_retriever",
+    "expected_tool": "claude_contract_auditor",
+    "duration_ms": 747,
+    "token_usage": {
+      "prompt": 9895,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_9",
+    "turn_depth": 9,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "claude_contract_auditor",
+    "expected_tool": "claude_contract_auditor",
+    "duration_ms": 309,
+    "token_usage": {
+      "prompt": 1270,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_10",
+    "turn_depth": 10,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "s1",
+    "expected_tool": "s5",
+    "duration_ms": 609,
+    "token_usage": {
+      "prompt": 9985,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_10",
+    "turn_depth": 10,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "s5",
+    "expected_tool": "s5",
+    "duration_ms": 255,
+    "token_usage": {
+      "prompt": 1360,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_10",
+    "turn_depth": 10,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "openai_function_router",
+    "expected_tool": "s5",
+    "duration_ms": 656,
+    "token_usage": {
+      "prompt": 9985,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_10",
+    "turn_depth": 10,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "s5",
+    "expected_tool": "s5",
+    "duration_ms": 322,
+    "token_usage": {
+      "prompt": 1360,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_11",
+    "turn_depth": 11,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "claude_multi_doc_synthesizer",
+    "expected_tool": "deepseek_sql_querier",
+    "duration_ms": 479,
+    "token_usage": {
+      "prompt": 10075,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_11",
+    "turn_depth": 11,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_sql_querier",
+    "expected_tool": "deepseek_sql_querier",
+    "duration_ms": 321,
+    "token_usage": {
+      "prompt": 1450,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_11",
+    "turn_depth": 11,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "claude_context_compressor",
+    "expected_tool": "deepseek_sql_querier",
+    "duration_ms": 583,
+    "token_usage": {
+      "prompt": 10075,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_11",
+    "turn_depth": 11,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_sql_querier",
+    "expected_tool": "deepseek_sql_querier",
+    "duration_ms": 227,
+    "token_usage": {
+      "prompt": 1450,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_12",
+    "turn_depth": 12,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "finance_invoice_auditor",
+    "expected_tool": "deepseek_quant_factor",
+    "duration_ms": 531,
+    "token_usage": {
+      "prompt": 10165,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_12",
+    "turn_depth": 12,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_quant_factor",
+    "expected_tool": "deepseek_quant_factor",
+    "duration_ms": 248,
+    "token_usage": {
+      "prompt": 1540,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_12",
+    "turn_depth": 12,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "crm_lead_scorer",
+    "expected_tool": "deepseek_quant_factor",
+    "duration_ms": 452,
+    "token_usage": {
+      "prompt": 10165,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_12",
+    "turn_depth": 12,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_quant_factor",
+    "expected_tool": "deepseek_quant_factor",
+    "duration_ms": 286,
+    "token_usage": {
+      "prompt": 1540,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_13",
+    "turn_depth": 13,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_fine_tuning_validator",
+    "expected_tool": "qwen_cross_lingual_trans",
+    "duration_ms": 552,
+    "token_usage": {
+      "prompt": 10255,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_13",
+    "turn_depth": 13,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "qwen_cross_lingual_trans",
+    "expected_tool": "qwen_cross_lingual_trans",
+    "duration_ms": 298,
+    "token_usage": {
+      "prompt": 1630,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_13",
+    "turn_depth": 13,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "openai_swarm_handoff",
+    "expected_tool": "qwen_cross_lingual_trans",
+    "duration_ms": 646,
+    "token_usage": {
+      "prompt": 10255,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_13",
+    "turn_depth": 13,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "qwen_cross_lingual_trans",
+    "expected_tool": "qwen_cross_lingual_trans",
+    "duration_ms": 238,
+    "token_usage": {
+      "prompt": 1630,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_14",
+    "turn_depth": 14,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_batch_pipeline",
+    "expected_tool": "openai_dalle_generator",
+    "duration_ms": 576,
+    "token_usage": {
+      "prompt": 10345,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_14",
+    "turn_depth": 14,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "openai_dalle_generator",
+    "expected_tool": "openai_dalle_generator",
+    "duration_ms": 335,
+    "token_usage": {
+      "prompt": 1720,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_14",
+    "turn_depth": 14,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "openai_rag_retriever",
+    "expected_tool": "openai_dalle_generator",
+    "duration_ms": 529,
+    "token_usage": {
+      "prompt": 10345,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_14",
+    "turn_depth": 14,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "qwen_wanx_vision",
+    "expected_tool": "openai_dalle_generator",
+    "duration_ms": 267,
+    "token_usage": {
+      "prompt": 1720,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_15",
+    "turn_depth": 15,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "openai_code_interpreter",
+    "duration_ms": 652,
+    "token_usage": {
+      "prompt": 10435,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_15",
+    "turn_depth": 15,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "openai_code_interpreter",
+    "expected_tool": "openai_code_interpreter",
+    "duration_ms": 197,
+    "token_usage": {
+      "prompt": 1810,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_15",
+    "turn_depth": 15,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "deepseek_r1_reasoner",
+    "expected_tool": "openai_code_interpreter",
+    "duration_ms": 622,
+    "token_usage": {
+      "prompt": 10435,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_15",
+    "turn_depth": 15,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "openai_code_interpreter",
+    "expected_tool": "openai_code_interpreter",
+    "duration_ms": 198,
+    "token_usage": {
+      "prompt": 1810,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_16",
+    "turn_depth": 16,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "deepseek_log_anomaly_detector",
+    "duration_ms": 734,
+    "token_usage": {
+      "prompt": 10525,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_16",
+    "turn_depth": 16,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_log_anomaly_detector",
+    "expected_tool": "deepseek_log_anomaly_detector",
+    "duration_ms": 266,
+    "token_usage": {
+      "prompt": 1900,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_16",
+    "turn_depth": 16,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "claude_computer_use",
+    "expected_tool": "deepseek_log_anomaly_detector",
+    "duration_ms": 669,
+    "token_usage": {
+      "prompt": 10525,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_16",
+    "turn_depth": 16,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_log_anomaly_detector",
+    "expected_tool": "deepseek_log_anomaly_detector",
+    "duration_ms": 314,
+    "token_usage": {
+      "prompt": 1900,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_17",
+    "turn_depth": 17,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "claude_extended_thinking",
+    "expected_tool": "ecommerce_refund_guard",
+    "duration_ms": 629,
+    "token_usage": {
+      "prompt": 10615,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_17",
+    "turn_depth": 17,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "ecommerce_refund_guard",
+    "expected_tool": "ecommerce_refund_guard",
+    "duration_ms": 203,
+    "token_usage": {
+      "prompt": 1990,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_17",
+    "turn_depth": 17,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "ecommerce_refund_guard",
+    "duration_ms": 614,
+    "token_usage": {
+      "prompt": 10615,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_17",
+    "turn_depth": 17,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "ecommerce_refund_guard",
+    "expected_tool": "ecommerce_refund_guard",
+    "duration_ms": 252,
+    "token_usage": {
+      "prompt": 1990,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_18",
+    "turn_depth": 18,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_whisper_transcriber",
+    "expected_tool": "claude_security_redteam",
+    "duration_ms": 724,
+    "token_usage": {
+      "prompt": 10705,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_18",
+    "turn_depth": 18,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "claude_security_redteam",
+    "expected_tool": "claude_security_redteam",
+    "duration_ms": 281,
+    "token_usage": {
+      "prompt": 2080,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_18",
+    "turn_depth": 18,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "claude_extended_reflection",
+    "expected_tool": "claude_security_redteam",
+    "duration_ms": 479,
+    "token_usage": {
+      "prompt": 10705,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_18",
+    "turn_depth": 18,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "s5",
+    "expected_tool": "claude_security_redteam",
+    "duration_ms": 208,
+    "token_usage": {
+      "prompt": 2080,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_19",
+    "turn_depth": 19,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_fine_tuning_validator",
+    "expected_tool": "supply_chain_inventory_opt",
+    "duration_ms": 528,
+    "token_usage": {
+      "prompt": 10795,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_19",
+    "turn_depth": 19,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "supply_chain_inventory_opt",
+    "expected_tool": "supply_chain_inventory_opt",
+    "duration_ms": 321,
+    "token_usage": {
+      "prompt": 2170,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_19",
+    "turn_depth": 19,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "supply_chain_inventory_opt",
+    "duration_ms": 586,
+    "token_usage": {
+      "prompt": 10795,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_19",
+    "turn_depth": 19,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "supply_chain_inventory_opt",
+    "expected_tool": "supply_chain_inventory_opt",
+    "duration_ms": 325,
+    "token_usage": {
+      "prompt": 2170,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_20",
+    "turn_depth": 20,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_realtime_audio",
+    "expected_tool": "claude_svg_diagram",
+    "duration_ms": 712,
+    "token_usage": {
+      "prompt": 10885,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_20",
+    "turn_depth": 20,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "claude_svg_diagram",
+    "expected_tool": "claude_svg_diagram",
+    "duration_ms": 331,
+    "token_usage": {
+      "prompt": 2260,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_20",
+    "turn_depth": 20,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "claude_svg_diagram",
+    "duration_ms": 610,
+    "token_usage": {
+      "prompt": 10885,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_20",
+    "turn_depth": 20,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "claude_svg_diagram",
+    "expected_tool": "claude_svg_diagram",
+    "duration_ms": 333,
+    "token_usage": {
+      "prompt": 2260,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_22",
+    "turn_depth": 22,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "qwen_fin_report_analyzer",
+    "duration_ms": 538,
+    "token_usage": {
+      "prompt": 11065,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_22",
+    "turn_depth": 22,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "qwen_fin_report_analyzer",
+    "expected_tool": "qwen_fin_report_analyzer",
+    "duration_ms": 233,
+    "token_usage": {
+      "prompt": 2440,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_22",
+    "turn_depth": 22,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "claude_bash_executor",
+    "expected_tool": "qwen_fin_report_analyzer",
+    "duration_ms": 723,
+    "token_usage": {
+      "prompt": 11065,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_22",
+    "turn_depth": 22,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "qwen_fin_report_analyzer",
+    "expected_tool": "qwen_fin_report_analyzer",
+    "duration_ms": 236,
+    "token_usage": {
+      "prompt": 2440,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_25",
+    "turn_depth": 25,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "deepseek_formal_verifier",
+    "duration_ms": 685,
+    "token_usage": {
+      "prompt": 11335,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_25",
+    "turn_depth": 25,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_formal_verifier",
+    "expected_tool": "deepseek_formal_verifier",
+    "duration_ms": 199,
+    "token_usage": {
+      "prompt": 2710,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_25",
+    "turn_depth": 25,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "OMISSION",
+    "selected_tool": null,
+    "expected_tool": "deepseek_formal_verifier",
+    "duration_ms": 471,
+    "token_usage": {
+      "prompt": 11335,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_25",
+    "turn_depth": 25,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "deepseek_formal_verifier",
+    "expected_tool": "deepseek_formal_verifier",
+    "duration_ms": 332,
+    "token_usage": {
+      "prompt": 2710,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_28",
+    "turn_depth": 28,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "openai_vision_ocr",
+    "expected_tool": "social_media_copywriter",
+    "duration_ms": 570,
+    "token_usage": {
+      "prompt": 11605,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_28",
+    "turn_depth": 28,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "social_media_copywriter",
+    "expected_tool": "social_media_copywriter",
+    "duration_ms": 276,
+    "token_usage": {
+      "prompt": 2980,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_28",
+    "turn_depth": 28,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "openai_whisper_transcriber",
+    "expected_tool": "social_media_copywriter",
+    "duration_ms": 589,
+    "token_usage": {
+      "prompt": 11605,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_28",
+    "turn_depth": 28,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "social_media_copywriter",
+    "expected_tool": "social_media_copywriter",
+    "duration_ms": 310,
+    "token_usage": {
+      "prompt": 2980,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_30",
+    "turn_depth": 30,
+    "condition": "direct_all_tools",
+    "iteration": 1,
+    "status": "MISMATCH",
+    "selected_tool": "s_word_01",
+    "expected_tool": "openai_assistant_thread",
+    "duration_ms": 630,
+    "token_usage": {
+      "prompt": 11785,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_30",
+    "turn_depth": 30,
+    "condition": "skill_index_system_curated",
+    "iteration": 1,
+    "status": "SUCCESS",
+    "selected_tool": "openai_assistant_thread",
+    "expected_tool": "openai_assistant_thread",
+    "duration_ms": 225,
+    "token_usage": {
+      "prompt": 3160,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_30",
+    "turn_depth": 30,
+    "condition": "direct_all_tools",
+    "iteration": 2,
+    "status": "MISMATCH",
+    "selected_tool": "qwen_chinese_classical",
+    "expected_tool": "openai_assistant_thread",
+    "duration_ms": 620,
+    "token_usage": {
+      "prompt": 11785,
+      "candidates": 1
+    }
+  },
+  {
+    "case_id": "gaia_turn_30",
+    "turn_depth": 30,
+    "condition": "skill_index_system_curated",
+    "iteration": 2,
+    "status": "SUCCESS",
+    "selected_tool": "openai_assistant_thread",
+    "expected_tool": "openai_assistant_thread",
+    "duration_ms": 287,
+    "token_usage": {
+      "prompt": 3160,
+      "candidates": 1
+    }
+  }
+]
